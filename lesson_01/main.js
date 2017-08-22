@@ -27,7 +27,7 @@ function createWindow() {
     const webContents = win.webContents;
 
     webContents.on('did-finish-load', () => {
-        webContents.send('hellow', '天王盖地虎');
+        webContents.send('hello', '天王盖地虎');
     });
 
     ipcMain.on('password', (e, src) => {

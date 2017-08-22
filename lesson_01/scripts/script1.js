@@ -4,7 +4,7 @@
     const right = document.querySelector('#right');
     const wrong = document.querySelector('#wrong');
 
-    ipcRenderer.on('hellow', (e, src) => {
+    ipcRenderer.on('hello', (e, src) => {
         alert(`土匪出现, 他说:${src}`);
     });
 
