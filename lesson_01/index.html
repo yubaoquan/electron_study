@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test electron</title>
+        <style>
+        .hide {
+            display: none;
+        }
+        .right {
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input type="text" placeholder="请说口令">
+            <button id="btn">说好了!</button>
+            <button id="reset">再试一次</button>
+        </div>
+        <h3 id="wrong" class="wrong hide">口令错误 你已经死了</h3>
+        <h3 id="right" class="right hide">口令正确 是自己人</h3>
+        <script src="./scripts/script1.js"></script>
+    </body>
+</html>
